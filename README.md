@@ -6,6 +6,8 @@ CSharp to TypeScript editor
 
 > A Uni Projeção project
 
+See the [demo](http://ctots.herokuapp.com/#/)
+
 ## Build Setup
 
 ``` bash
@@ -21,3 +23,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+## LICENSE
+
+[MIT](LICENSE)
