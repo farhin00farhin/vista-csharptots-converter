@@ -11,6 +11,7 @@
 
 <script>
     import Monaco from 'vue-monaco-editor'
+    import { debounce } from 'lodash'
 
     export default {
         data(){
@@ -20,9 +21,9 @@
         },
         components: { Monaco },
         methods: {
-            onCodeChange(editor){
-                Event.fire('transpile.to.ts', editor.getValue())
-            },
+            onCodeChange: debounce(e => {
+                Event.fire('transpile.to.ts', e.getValue())
+            }, 300),
             onMounted(editor){
                 this.editor = editor
             }

@@ -9,6 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "typescript-cs-poco": "^1.12.0",
     "vue": "^2.2.1",
     "vue-monaco-editor": "0.0.19",
