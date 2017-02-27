@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/uni-projecao/csharptots-editor/master/csharptots.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/uni-projecao/csharptots-editor/master/csharptots.gif"></p>
 
 # csharptots-editor
 
