@@ -25,4 +25,4 @@ npm run build --report
 ```
 ## LICENSE
 
-[MIT](LICENSE)
+CSharpToTs is open-sourced software licensed under the [MIT license](LICENSE)
