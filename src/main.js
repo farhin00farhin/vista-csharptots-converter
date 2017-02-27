@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Event from './Event'
 
 Vue.config.productionTip = false
+
+window.Event = new Event()
 
 /* eslint-disable no-new */
 new Vue({
